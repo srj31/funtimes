@@ -3,10 +3,6 @@ import { Buffer } from "node:buffer";
 const input = "0x1234567890abcdef1234";
 const buf = Buffer.from(input.slice(2), "hex");
 
-console.log(buf);
-console.log("String version");
-console.log(buf.toString());
-console.log(buf.toString("hex"));
 // Prints: 68656c6c6f20776f726c64
 // Prints: aGVsbG8gd29ybGQ=
 
@@ -61,8 +57,9 @@ class Data {
 }
 
 const data = Data.fromHex(input);
-console.log(data.rawBytes);
-console.log("toInts()");
-console.log(data.toInts());
-console.log("toHex()");
-console.log(data.toHex());
+
+const storageKeys = [
+  "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+];
+const stateRoot = BigInt(storageKeys);
+console.log(stateRoot);

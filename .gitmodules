@@ -1,0 +1,3 @@
+[submodule "ads"]
+	path = ads
+	url = https://github.com/srj31/ads.git

@@ -5,7 +5,6 @@ macro_rules! my_vec {
     };
     ($( $e: expr ),+ $(,)?) => {{
         const C: usize = $crate::count![@COUNT; $($e),*];
-
         let mut v = Vec::with_capacity(C);
         $(v.push($e);)+
         v
