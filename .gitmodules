@@ -1,3 +1,6 @@
 [submodule "ads"]
 	path = ads
 	url = https://github.com/srj31/ads.git
+[submodule "chatgpt2-rs"]
+	path = chatgpt2-rs
+	url = https://github.com/srj31/chatgpt2-rs.git
