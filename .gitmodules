@@ -4,3 +4,6 @@
 [submodule "chatgpt2-rs"]
 	path = chatgpt2-rs
 	url = https://github.com/srj31/chatgpt2-rs.git
+[submodule "ocaml_workshop"]
+	path = ocaml_workshop
+	url = https://github.com/srj31/ocaml_workshop.git
