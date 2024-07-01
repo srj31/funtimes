@@ -7,3 +7,6 @@
 [submodule "ocaml_workshop"]
 	path = ocaml_workshop
 	url = https://github.com/srj31/ocaml_workshop.git
+[submodule "zig_funtimes"]
+	path = zig_funtimes
+	url = https://github.com/srj31/zig_funtimes
