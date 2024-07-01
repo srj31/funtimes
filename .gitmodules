@@ -10,3 +10,6 @@
 [submodule "zig_funtimes"]
 	path = zig_funtimes
 	url = https://github.com/srj31/zig_funtimes
+[submodule "zig"]
+	path = zig
+	url = https://github.com/srj31/zig_funtimes
